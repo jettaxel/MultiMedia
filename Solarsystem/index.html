@@ -239,6 +239,27 @@
   </div>
 </div>
 
+<!-- Pluto -->
+<div class="week" style="--delay: 0.8s; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;">
+  <div class="week-content">
+    <div class="week-header">
+      <div class="week-number">Pluto</div>
+      <h3 class="week-title">Time Ratio: 1 Earth Year = 0.004 Pluto Years</h3>
+    </div>
+    <p class="week-description">
+      Once considered the ninth planet, Pluto is now classified as a dwarf planet. It has a very elliptical orbit and takes over 248 Earth years to complete a single orbit around the Sun.
+    </p>
+    <p class="converted-age" id="age-Pluto" style="font-weight: bold; color: #ffffff; font-size: 24px;"></p>
+  </div>
+  <div style="display: flex; justify-content: center;">
+    <video class="week-video" autoplay muted loop playsinline controls style="width: 100%; max-width: 600px; height: auto; border-radius: 8px;">
+      <source src="../Media/Pluto.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+
 
     </section>
   </div>
@@ -264,7 +285,8 @@
     Jupiter: 0.08,
     Saturn: 0.03,
     Uranus: 0.01,
-    Neptune: 0.006
+    Neptune: 0.006,
+    Pluto: 0.004 // Added Pluto
   };
 
   function updateAllAges() {
