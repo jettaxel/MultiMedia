@@ -317,3 +317,35 @@ h1 {
   color: #fff;
 }
 
+.widescreen-video-container {
+  max-width: 1600px;          /* Extra wide container */
+  width: 100%;
+  margin: 60px auto;          /* Centered with spacing */
+  padding: 20px;
+  background-color: #0d0d0d;  /* Optional dark background */
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.video-label {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.widescreen-video {
+  width: 100%;
+  aspect-ratio: 16 / 6;       /* Wider than standard 16:9 */
+  border-radius: 12px;
+  background-color: #000;
+  display: block;
+}
+
+.video-caption {
+  text-align: center;
+  font-size: 18px;
+  color: #cccccc;
+  margin-top: 16px;
+}
